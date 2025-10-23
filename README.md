@@ -1,12 +1,12 @@
 # imhjzGS9e9W4uiJT
-***Repository for the “Potential Talents / Talent Ranking & Fine-tuning” project
+**Repository for the “Potential Talents / Talent Ranking & Fine-tuning” project**
 
-###[1] Project Overview
-###[2] Prerequisites
-###[3] Step-by-Step Workflow
-###[4] What you should take away
+### [1] Project Overview
+### [2] Prerequisites
+### [3] Step-by-Step Workflow
+### [4] What you should take away
 
-###[1] Project Overview
+### [1] Project Overview
 
 This project—hosted in Jupyter Notebooks and executed partly via Google Colab (for model fine-tuning)—aims to build a system that can:
 
@@ -21,7 +21,7 @@ It consists of:
 - `Potential Talents_Part2.ipynb` (runs in Jupyter Notebook)
 - `2_HF_gemma_finetuning-from googlecolab.ipynb` (runs in Google Colab)
 
-###[2] Prerequisites
+### [2] Prerequisites
 
 - Python = 3.8  
 - Jupyter Notebook / JupyterLab or access to Google Colab  
@@ -35,7 +35,7 @@ It consists of:
   torch / tensorflow (depending on backend)
   nltk / spaCy (for preprocessing)
 
-###[3] Step-by-Step Workflow
+### [3] Step-by-Step Workflow
 
 Below is a more detailed, stepwise flow of what a user (or you) would execute:
 
@@ -59,7 +59,7 @@ In the `2_HF_gemma_finetuning` notebook, the steps usually include:
 - Saving the fine-tuned model  
 - Applying that to rank or embed candidate profiles  
 
-###[4] What you should take away
+### [4] What you should take away
 
 This project showcases end-to-end capability: from data ingestion through text embedding, similarity ranking, human-in-the-loop feedback, to fine-tuning advanced models.
 
